@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1043163906929",
+    "firebase_url": "https://digiworld-6d285.firebaseio.com",
+    "project_id": "digiworld-6d285",
+    "storage_bucket": "digiworld-6d285.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043163906929:android:8c5a8e5cf9206ac4ac6cd0",
+        "android_client_info": {
+          "package_name": "com.example.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043163906929-e8sv88rc1evev05akk4c25ha5grsi235.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.demoapp",
+            "certificate_hash": "85212f0b5e777628a39b0f8627cc822a29c123c4"
+          }
+        },
+        {
+          "client_id": "1043163906929-h50hd2u3iq07o3kvdl26hmodkd3lbesl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEW7h-AQaHKAYoPQckp48v32t4IW9h3kE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043163906929-h50hd2u3iq07o3kvdl26hmodkd3lbesl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

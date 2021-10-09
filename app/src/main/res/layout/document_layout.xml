@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:id="@+id/certificate_layout"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:id="@+id/certificare_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:src="@drawable/photo"
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Certificate"
+                android:textColor="@color/yellow"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cast_layout"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/cast_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:layout_alignTop="@+id/cast_layout"
+                android:layout_toStartOf="@+id/cast_layout"
+                android:padding="16dp"
+                android:src="@drawable/photo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cast Certificate"
+                android:textColor="@color/yellow"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_layout"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/id_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:src="@drawable/photo"
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID card"
+                android:textColor="@color/yellow"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_below="@+id/id_layout"
+            android:layout_marginTop="437dp"
+            android:background="@color/yellow"
+            android:text="upload" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

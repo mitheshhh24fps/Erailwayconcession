@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/document_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studen Name"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/document_tv_roll_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studen Roll No"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"/>
+
+    <LinearLayout
+        android:layout_below="@id/document_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        app:cardCornerRadius="16dp"
+        android:elevation="0dp"
+        app:cardBackgroundColor="@color/yellow">
+
+        <ImageView
+            android:id="@+id/imageView_id"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/consent"
+            android:layout_margin="10dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@id/document_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_alignParentEnd="true">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        app:cardCornerRadius="16dp"
+        android:elevation="0dp"
+        app:cardBackgroundColor="@color/yellow">
+
+        <ImageView
+            android:id="@+id/imageView_certificate"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/consent"
+            android:layout_margin="10dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
